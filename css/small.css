@@ -1,0 +1,123 @@
+.info-pane{
+    padding: 0 10px;
+    width:calc(100% - 20px)
+}
+.info-pane b{
+    font-size: 14px;
+}
+.info-pane p{
+font-size: 8px
+}
+.social-icon img{
+width:25px;
+}
+.slider img{
+    height:250px;
+}
+.arrow{
+    width:25px;
+    z-index: 55;
+}
+.search-title{
+    font-size: 18px;
+     line-height: 60px;
+}
+.search-form{
+    width:90%;
+}
+.search{
+    padding-top:20px;
+    height: 250px;
+}
+.seach-input{
+    padding-left: 20px;
+    width:calc(70% - 20px)
+}
+
+.drop-down{
+ font-size:18px;
+ margin:0;
+ padding:0;
+
+}
+
+.nav-menu a{
+font-size:12px;
+}
+header{
+    position: fixed;
+    z-index: 99;
+    top:0;
+}
+.travel-section{
+padding:0;
+}
+.travel-menu{
+    padding: 10px;
+    width:calc(100% - 20px)
+}
+.travel-menu-item:nth-of-type(1){
+    display: none;
+}
+.hotels-title{
+    
+    min-width:220px ;
+   padding:0;
+   text-align: center
+}
+.hotels-header{
+padding:8px 0;
+height:60px;
+
+
+}
+.hotels-row{
+height: 18px;
+}
+.hotels-title h1, .hotels-title span{
+    padding-left:0;
+    margin-left:0;
+    padding-right:0;
+    margin-right:2px;
+    margin-top: 18px;
+    font-size:21px;
+}
+
+
+.big-banner{
+    margin-top:100px
+}
+ul.nav-menu{
+    position: fixed;
+   
+}
+
+.travel-container{
+    width:100%;
+    padding:0;
+}
+.city-card{
+    width:100%;
+}
+.contact-pane{
+flex-flow: column wrap;
+
+}
+
+.iframe{
+    width: 100%;
+    flex-flow: column nowrap;
+    align-items: center;
+     
+}
+iframe{
+    display: block;
+    margin:5px 0;
+}
+
+footer{
+    padding:10px 30px;
+   min-width: calc(100% - 60px);
+   flex-direction: column;
+   text-align: center
+}
